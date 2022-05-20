@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PIM-Tests" verbose="10" parallel="classes" thread-count="5">
+
+    <test name="Smoke tests">
+        <classes>
+            <class name="trademax.AuthorizationTests"/>
+            <class name="trademax.ImportTests"/>
+            <class name="trademax.ProductsTests"/>
+            <class name="trademax.ExportTests"/>
+            <class name="trademax.PublishTests"/>
+            <!--<class name="trademax.CategoriesTests"/>-->
+        </classes>
+    </test>
+
+</suite>
